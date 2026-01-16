@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+header{
+  background-color:black;
+
+}
+header h1{
+   color: #f0f8ff; 
+   position: relative;
+    left: 300px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+
+}
+header ul{
+      position:absolute;
+    right:5vw;
+    top: 0;
+     line-height: 50px;
+     
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+
+.charecters{
+display:flex;
+background-color: burlywood;
+justify-content: space-between;
+align-items:center;
+padding:100px;
+
+}
+.charecters div{
+width:300px;
+text-align: center;
+}   
+.charecters img{
+width:100%;
+border-radius:10px;
+transition:all 0.5s ease;
+}
+.charecters img:hover{
+width:315px; height:460px;
+}
+.charecters h3{
+    background-color: rgb(180, 142, 162);
+ border:1px solid pink;
+ border-radius: 10px;
+    font-size: 40px;
+     font-family: dfkai-SB;
+    margin:20px ;
+}
+.charecters p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.charecters a{
+      text-decoration: none;
+     color:black;
+}
+.charecters a:hover{
+    text-decoration: underline;
+}
+.name ul{
+background-color: pink;
+}
+.name li{
+    list-style-position: inside;
+    position: relative;
+    left: 10px;
+    font-family: 'noto sans rounded','arial blake','impact','sans-serif';
+}
+table{
+    background-color: cadetblue;
+    align-items: center;
+}
+.newsletter{
+    background-color: #485652;
+    color: white;
+    padding: 60px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter p{
+    margin-bottom: 20px;
+}
+.newsletter input,.newsletter button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
